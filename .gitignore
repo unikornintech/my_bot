@@ -1,0 +1,4 @@
+# gitignore file tells Github to ignore the noted files, directories or files
+# that end in specific extensions when committing files to GitHub
+keys.py
+__pycache__

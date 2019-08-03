@@ -1,12 +1,12 @@
 import tweepy
 import time
+# NOTE: I put my keys in the keys.py to separate them
+# from this main file.
+# Please refer to keys_format.py to see the format.
+from keys import *
 
 print('this is my twitter bot')
 
-CONSUMER_KEY = 'QPor5JXMfHv3fqzUUgOb8aFGD'
-CONSUMER_SECRET = 'tFdVHPAqCsB9A03JFQzFtyV1zr390ZMthAGJTfUuyaRzGwRpHn'
-ACCESS_KEY = '1147500042229616640-nLpQ6oHKiWbQq4qSGfvLsEdvKp491b'
-ACCESS_SECRET = 'PbBSBlbwVGjf8UqYsNTutEXWcNEFMne85UtBygqIXN8A4'
 
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
